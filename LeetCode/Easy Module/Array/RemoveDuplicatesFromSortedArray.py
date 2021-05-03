@@ -3,7 +3,7 @@ from typing import List
 
 def removingDuplicates(arr: List) -> int:
     """ We can use set() as set has property of having unique values that will remove the duplicates
-    and then we can use len() method to get length of set that means number of uniwue element.
+    and then we can use len() method to get length of set that means number of unique element.
     """
     return len(set(arr))
 

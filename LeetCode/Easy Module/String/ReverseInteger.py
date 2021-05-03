@@ -6,4 +6,4 @@ def reverse(x) -> int:
         return x if x > -1 * (2 ** 31) and x < 2 ** 31 - 1 else 0
 
 
-print(reverse(-3647584))
+print(reverse(-36484867))
