@@ -15,4 +15,4 @@ def intersect(nums1: List[int], nums2: List[int]) -> List[int]:
     return res
 
 
-print(intersect([9, 4, 0, 9, 5, 6, 8, 9], [9, 4, 9]))
+print(intersect([9, 4, 0, 9, 5, 6, 8, 9], [9, 4, 3]))
