@@ -42,5 +42,5 @@ def lengthOfLongestSubstring(s: str) -> int:
     return 0
 
 
-print(lengthOfLongestSubstring("abba"))
+print(lengthOfLongestSubstring("abbac"))
 

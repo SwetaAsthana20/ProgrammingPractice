@@ -7,4 +7,4 @@ def hammingDistance(x: int, y: int) -> int:
 
     return result
 
-print(hammingDistance(7, 8))
+print(hammingDistance(4, 1))

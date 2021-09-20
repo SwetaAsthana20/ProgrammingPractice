@@ -1,11 +1,12 @@
-mapping = { '2' : 'abc',
-            '3' : 'def',
-            '4' : 'ghi',
-            '5' : 'jkl',
-            '6' : 'mno',
-            '7' : 'pqrs',
-            '8' : 'tuv',
-            '9' : 'wxyz'}
+mapping = {'2': 'abc',
+           '3': 'def',
+           '4': 'ghi',
+           '5': 'jkl',
+           '6': 'mno',
+           '7': 'pqrs',
+           '8': 'tuv',
+           '9': 'wxyz'}
+
 
 def letter_combination(num):
     result = []
@@ -16,9 +17,9 @@ def letter_combination(num):
                 result.append(cur)
             return
         for ch in mapping[num[i]]:
-            #cur.append(ch)
-            make_combinations(i + 1, cur+ch)
-            #cur.pop()
+            # cur.append(ch)
+            make_combinations(i + 1, cur + ch)
+            # cur.pop()
 
     make_combinations(0, '')
 

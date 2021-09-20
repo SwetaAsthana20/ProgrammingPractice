@@ -24,4 +24,4 @@ def removeDups(arr: List) -> int:
 
 """Both the above method can help us in removing duplicates and return the number of unique elements in array"""
 print(removingDuplicates([3, 4, 5, 6, 6, 7, 7, 8, 10]))
-print(removeDups([3, 4, 5, 6, 6, 7, 7, 8, 10]))
+print(removeDups([0, 0, 0, 0, 0, 0, 3, 4, 5, 6, 6, 7, 7, 8, 10]))

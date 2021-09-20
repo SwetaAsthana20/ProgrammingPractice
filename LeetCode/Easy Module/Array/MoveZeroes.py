@@ -14,4 +14,4 @@ def moveZeroes(nums: List[int]) -> None:
     return nums
 
 
-print(moveZeroes([0, 0, 3, 5, 0, 5, 6, 9, 0, 7, 0, 70, 0, 0, 0, 0]))
+print(moveZeroes([1, 0, 3, 5, 0, 5, 6, 9, 0, 7, 0, 70, 0, 0, 0, 0]))

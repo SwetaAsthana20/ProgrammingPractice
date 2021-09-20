@@ -8,7 +8,7 @@ def set_flag(row, col, matrix, row_size, col_size):
 
     return matrix
 
-def setZeroes(matrix):
+def setZeroe(matrix):
     row_size = len(matrix)
     col_size = len(matrix[0])
 
@@ -53,4 +53,4 @@ def set_Zeroes(matrix):
     return matrix
 
 
-print(set_Zeroes([[0,0,0,5],[4,3,1,4],[0,1,1,4],[1,2,1,3],[0,0,1,1]]))
+print(set_Zeroes([[1,7,0,5],[4,3,1,4],[0,1,1,4],[1,2,1,3],[0,0,1,1]]))

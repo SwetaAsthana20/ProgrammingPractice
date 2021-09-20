@@ -14,4 +14,17 @@ def increasingTriplet(nums) -> bool:
     return False
 
 
-print(increasingTriplet([1,2,3,2,1]))
+import math
+def increasingTri(nums) -> bool:
+    maxi = math.inf
+    mini = math.inf
+    for i in nums:
+        if i <= mini:
+            mini = i
+        elif i <= maxi:
+            maxi = i
+        else:
+            return True
+    return False
+
+print(increasingTri([1,2,3,2,1]))

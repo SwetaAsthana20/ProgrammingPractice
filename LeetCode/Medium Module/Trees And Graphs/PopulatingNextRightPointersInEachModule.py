@@ -66,7 +66,9 @@ def connect_bst(root: 'Node') -> 'Node':
 
 
 
+
 t = Node(1)
+
 t.left = Node(2)
 t.right = Node(3)
 t.left.left = Node(4)

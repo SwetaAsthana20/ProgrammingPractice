@@ -1,9 +1,9 @@
 def threeSum(nums):
     nums.sort()
     result = []
-    for i in range(len(nums)-2):
+    for i in range(len(nums) - 2):
         if i == 0 or nums[i] != nums[i - 1]:
-            j, k = i + 1, len(nums)-1
+            j, k = i + 1, len(nums) - 1
             while j < k:
                 add = nums[j] + nums[k] + nums[i]
                 if add == 0:
@@ -21,5 +21,4 @@ def threeSum(nums):
     return result
 
 
-print(threeSum([0, 0, 0, 0]))
-
+print(threeSum([-1,0,1,2,-1,-4]))

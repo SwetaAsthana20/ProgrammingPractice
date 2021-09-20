@@ -3,11 +3,11 @@ def maxProfit(prices) -> int:
     temp = 0
     for i in prices:
         if i < mini:
-            temp = temp if temp > maxi - mini else maxi - mini
             mini, maxi = i, i
         elif i > maxi:
             maxi = i
-    return temp if temp > maxi - mini else maxi - mini
+        temp = temp if temp > maxi - mini else maxi - mini
+    return temp
 
 
-print(maxProfit([4, 16, 1, 4, 6, 19]))
+print(maxProfit([7,1,5,3,6,4]))
